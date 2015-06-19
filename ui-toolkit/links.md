@@ -29,7 +29,7 @@ Links lead users to a different page or further information. In contrast, <a hre
   </ul>
 </div> 
 
-<h2 id="style">Style<span class="cf-code-link"><a href="http://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
+<h2 id="style">Style<span class="cf-code-link"><a href="https://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
 
 <div class="content-33 content-first">
 
@@ -52,7 +52,7 @@ Lorem ipsum dolor sit amet, <a href="#">Default link style</a>. Vestibulum orci 
 </div>
 
 
-<h2 id="states">States<span class="cf-code-link"><a href="http://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
+<h2 id="states">States<span class="cf-code-link"><a href="https://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
 
 <div class="content-33 content-first">
 #### Default
@@ -107,7 +107,7 @@ Lorem ipsum dolor sit amet, <a href="#">Default link style</a>. Vestibulum orci 
 </div>
 
 
-<h2 id="variations">Variations<span class="cf-code-link"><a href="http://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
+<h2 id="variations">Variations<span class="cf-code-link"><a href="https://cfpb.github.io/cf-typography/docs/">View code <span class="cf-icon cf-icon-external-link"></span></a></span></h2>
 
 <div class="content-33 content-first">
 #### Links in headers
@@ -159,7 +159,9 @@ Carets (minicon glyph EE02) can emphasize CFPB webpages, such as in a navigation
 
 <div class="content-50 content-first">
 ##### External links
-Use the external link (glyph E610) to emphasize a non-CFPB webpage. External links should open in a new window or tab.
+Use the external link minicon (glyph E610) to emphasize a non-CFPB webpage.
+
+External links should open in the same browser window (i.e., do not set them to ```target="_blank"```). This allows the user to choose whether they want to open an additional window in order to view the content.
 </div>
 <div class="content-50 content-last regular-ex">
 <a class="link-with-icon" href="#">External link <span class="cf-icon cf-icon-external-link"></span></a>
@@ -180,6 +182,8 @@ Use the Email link minicon (glyph E302) to emphasize a <code>mailto</code> link.
 <div class="content-50 content-first">
 ##### Document links
 Documents minicons can emphasize a link that contains a file or document.
+
+Document links should open in the same browser window (i.e., do not set them to ```target="_blank"```). This allows the user to choose whether they want to open an additional window in order to view the content.
 </div>
 <div class="content-50 content-last regular-ex">
 <ul class="list_links-minicons">

@@ -8,7 +8,7 @@ published: true
 - [Typefaces](#typefaces)
 - [Web hierarchy](#web-hierarchy)
 - [Web typesetting](#typesetting-for-readability)
-- [Web accessibility](#web-type-accessibility)
+- [Type accessibility](#type-accessibility)
 - [Print hierarchy](#print-hierarchy)
 {: class="toc"}
 
@@ -21,7 +21,7 @@ A clear typographic hierarchy is critical to the effective communication of our 
 
 <div class="content-33 content-last">
 
-![Feature image of Avenir Type Sample]({{ site.baseurl }}/assets/img/typography/Typography0_@2.png)
+![Feature image of Avenir Type Sample]({{ site.baseurl }}/static/img/typography/Typography0_@2.png)
 
 </div>
 
@@ -253,6 +253,21 @@ abcdefghijklmnopqrstuvwxyz
 
 <div class="content-33 content-first">
 
+#### Subheader
+
+* Avenir Next Regular
+* 18 px / 22 px line height
+
+</div>
+
+<div class="content-67 content-last">
+
+<p class="subheader">Use this tool to compare school data and relevant financial factors to make a more informed decision for your future.</p>
+
+</div>
+
+<div class="content-33 content-first">
+
 #### Body (sans-serif)
 
 * Avenir Next Regular
@@ -297,7 +312,7 @@ Typography should be set flush left. This provides the eye a constant starting p
 
 <div class="content-67 content-last">
 
-![Alignment]({{ site.baseurl }}/assets/img/typography/Typography_typesetting01_@2.png "Alignment")
+![Alignment]({{ site.baseurl }}/static/img/typography/Typography_typesetting01_@2.png "Alignment")
 
 </div>
 
@@ -318,12 +333,12 @@ When setting body copy, the leading should be 1.375 times the type size, or 37.5
 <div class="content-50 content-first">
 #### Font size: 26px
 
-![Line height example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting02_@2.png "Line height of 36px for 26px font size")
+![Line height example]({{ site.baseurl }}/static/img/typography/Typography_typesetting02_@2.png "Line height of 36px for 26px font size")
 </div>
 <div class="content-50 content-last">
 #### Font size: 16px
 
-![Line height example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting03_@2.png "Line height of 22px for 16px font size")
+![Line height example]({{ site.baseurl }}/static/img/typography/Typography_typesetting03_@2.png "Line height of 22px for 16px font size")
 </div>
 
 </div>
@@ -342,7 +357,7 @@ For a single column of text, line length should be an average of 66 characters p
 
 <div class="content-67 content-last">
 
-![Line length]({{ site.baseurl }}/assets/img/typography/Typography_typesetting04_@2.png "Line length example")
+![Line length]({{ site.baseurl }}/static/img/typography/Typography_typesetting04_@2.png "Line length example")
 
 </div>
 
@@ -361,36 +376,36 @@ When setting headers and body copy, the white space should be 15px, 20px, or 30p
 <div class="content-67 content-last">
 
 <div class="content-50 content-first">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_display_@2.png "Spacing for Display header")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_display_@2.png "Spacing for Display header")
 </div>
 
 <div class="content-50 content-last">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header1_@2.png "Spacing for Header 1")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header1_@2.png "Spacing for Header 1")
 </div>
 
 <div class="content-50 content-first">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header2_@2.png "Spacing for Header 2")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header2_@2.png "Spacing for Header 2")
 </div>
 
 <div class="content-50 content-last">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header3_@2.png "Spacing for Header 3")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header3_@2.png "Spacing for Header 3")
 </div>
 
 <div class="content-50 content-first">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header4_@2.png "Spacing for Header 4")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header4_@2.png "Spacing for Header 4")
 </div>
 
 <div class="content-50 content-last">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header5_@2.png "Spacing for Header 5")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header5_@2.png "Spacing for Header 5")
 </div>
 
 <div class="content-50 content-first">
-![Spacing example]({{ site.baseurl }}/assets/img/typography/Typography_typesetting05_header6_@2.png "Spacing for Header 6")
+![Spacing example]({{ site.baseurl }}/static/img/typography/Typography_typesetting05_header6_@2.png "Spacing for Header 6")
 </div>
 
 </div>
 
-## Web type accessibility
+## Type accessibility
 
 <div class="content-50 content-first">
 
@@ -398,7 +413,7 @@ When setting headers and body copy, the white space should be 15px, 20px, or 30p
 
 WCA (Web Content Accessibility) standards ensure that content is accessible by everyone, regardless of any disability or user device. 
 
-To ensure text remains compliant with WCA standards, use only these permitted color combinations. These options fall within the range of foreground/background color contrast permitted by the Secion 508 guidelines.
+To ensure text remains compliant with [WCAG 2.0 standards](http://www.w3.org/TR/WCAG20/), use only these permitted color combinations. These options fall within the range of foreground/background color contrast permitted by the Secion 508 guidelines.
 
 </div>
 
@@ -432,6 +447,7 @@ Accessible text and background color combinations are shown below:
         <li class="type-color-combo__white-on-darkgray">White on Dark Gray</li>
         <li class="type-color-combo__black-on-gray10">CFPB Black on Gray 10%</li>
         <li class="type-color-combo__black-on-gray5">CFPB Black on Gray 5%</li>
+        <li class="type-color-combo__pacific-on-gray5">Pacific on Gray 5%</li>
         <li class="type-color-combo__black-on-greenmid">CFPB Black on Green Midtone</li>
         <li class="type-color-combo__black-on-greentint">CFPB Black on Green Tint</li>
     </ul>
@@ -539,7 +555,7 @@ Even though CFPB Green and CFPB Black are accessible for large scale type, this 
     
 #### Header 1
 
-* Avenir Next Medium
+* Avenir Next Regular
 * 38 pt / 40 pt
 
 </div>
@@ -556,8 +572,8 @@ Even though CFPB Green and CFPB Black are accessible for large scale type, this 
     
 #### Header 2
 
-* Avenir Next Demi Bold
-* 18 pt / 20 pt
+* Avenir Next Regular
+* 28 pt / 26 pt
 
 </div>
 
